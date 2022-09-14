@@ -1,0 +1,21 @@
+{
+    "plugins": ["cypress", "jest-formatting"],
+    "rules": {
+        "cypress/no-assigning-return-values": "warn",
+        "cypress/no-unnecessary-waiting": "warn",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn",
+        "cypress/no-async-tests": "warn",
+        "cypress/no-pause": "warn",
+        "no-console": "off",
+        "jest-formatting/padding-around-after-all-blocks": 2,
+        "jest-formatting/padding-around-after-each-blocks": 2,
+        "jest-formatting/padding-around-test-blocks": 2,
+        "jest-formatting/padding-around-describe-blocks": 2,
+        "jest-formatting/padding-around-before-all-blocks": 2,
+        "jest-formatting/padding-around-before-each-blocks": 2,
+        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
+    },
+    "extends": ["plugin:cypress/recommended", "plugin:jest-formatting/recommended"],
+    "parser": "@typescript-eslint/parser"
+}

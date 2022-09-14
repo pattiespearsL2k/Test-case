@@ -1,0 +1,14 @@
+{
+    "ignoreTestFiles": "*.js",
+    "video": false,
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "requestTimeout": 15000,
+    "responseTimeout": 20000,
+    "defaultCommandTimeout": 12000,
+    "experimentalSessionAndOrigin": true,
+    "videoUploadOnPasses": false,
+    "screenshotOnRunFailure": true,
+    "includeShadowDom": true,
+    "numTestsKeptInMemory": 100
+}

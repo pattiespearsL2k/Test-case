@@ -1,0 +1,12 @@
+!.*
+node_modules/
+cypress/integration/*.js
+cypress/support/*.js
+# Video
+/cypress/videos/*
+.DS_Store
+#package-lock.json
+.vscode
+cypress/downloads/*
+cypress/fixtures/template-*.xlsx
+cypress/fixtures/usersInfo.json

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "ES2020",
+        "target": "ES2020",
+        "allowJs": true,
+        "lib": ["ES2020", "dom"],
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "types": ["cypress", "cypress-xpath", "cypress-file-upload", "cypress-real-events", "cypress-should-really"],
+        "baseUrl": "./",
+        "paths": {
+            "@pages/*": ["cypress/support/pages/*"],
+            "@commands/*": ["cypress/support/commands/*"],
+            "@components/*": ["cypress/support/components/*"],
+            "@constants/*": ["cypress/support/constants/*"],
+            "@enums/*": ["cypress/support/enums/*"],
+            "@helpers/*": ["cypress/support/helpers/*"],
+            "@intercepts/*": ["cypress/support/intercepts/*"],
+            "@languages/*": ["cypress/support/languages/*"],
+            "@fixtures/*": ["cypress/fixtures/*"]
+        }
+    },
+    "include": ["**/*.ts", "./cypress"],
+    "exclude": ["node_modules"]
+}
